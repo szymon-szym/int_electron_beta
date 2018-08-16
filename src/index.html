@@ -5,25 +5,28 @@
     <meta charset="UTF-8">
     <title>Intake Mon</title>
     <link rel="stylesheet" href="../assets/css/index.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
         <div class="toolbar">
-            <!--             <a id="refreshBtn" class="waves-effect waves-light btn grey darken-3">refresh</a> -->
+          <a id="refreshBtn" class="waves-effect waves-light btn grey darken-3">refresh</a>
         </div>
         <div id="allPP" class="PPcard">
             <div class="card-main"> 1234</div>
-            <div class="card-span"> Comment, hour, date</div>
+            <div class="card-span"> After 13:00</div>
         </div>
         <div id="PPafter" class="PPcard">
             <div class="card-main">1234</div>
-            <div class="card-span"> Comment, hour, date</div>
+            <div class="card-span"> After 16:00</div>
         </div>
         <div id="PPbetween" class="PPcard">
             <div class="card-main">1234</div>
-            <div class="card-span"> Comment, hour, date</div>
+            <div class="card-span">15:00-22:00</div>
         </div>
         <div class="PPchart">
             <!-- <canvas id="myChart" responsive="true" height="100"></canvas> -->
@@ -31,6 +34,7 @@
 
         <div class="footer"></div>
     </div>
+    <script src="./index.js"></script>
 </body>
 
 </html>
